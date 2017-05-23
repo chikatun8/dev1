@@ -44,7 +44,7 @@ module.exports = function (grunt) {
           remote: 'git@github.com:chikatun8/dev1.git',
           branch: 'gh-pages'
         }
-      }
+      },
       main: {
         options: {
           remote: 'git@github.com:chikatun8/chikatun8.github.io',
