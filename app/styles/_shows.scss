@@ -1,0 +1,31 @@
+/* Music ------------------------- */
+
+.shows {
+  position: relative;
+  top: 400px;
+  color: black;
+  background-color: white;
+  height: auto;
+  min-height: 200px;
+}
+
+.show-info {
+  height: 200px;
+  text-align: center;
+  background-color: white;
+}
+
+.show-info p {
+  width: 100%;
+}
+
+.album-odd {
+  background-color: #BBB8CC;
+}
+
+.album-label {
+  display: inline-block;
+  line-height: 1.5;
+  color: white;
+  vertical-align: middle;
+}
