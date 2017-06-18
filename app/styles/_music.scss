@@ -22,12 +22,15 @@
 }
 
 .album-title {
-  height: 50px;
+  height: auto;
+  width: 350px;
+  
 
 }
 
 .album-pic {
-  height: 50px;
+  height: 300px;
+  width: auto;
   background-color: blue;
 }
 
