@@ -39,12 +39,12 @@ module.exports = function (grunt) {
         push: true,
         message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
       },
-      /*pages: {
+      pages: {
         options: {
           remote: 'git@github.com:chikatun8/dev1.git',
           branch: 'gh-pages'
         }
-      },*/
+      },
       main: {
         options: {
           remote: 'git@github.com:chikatun8/chikatun8.github.io',
