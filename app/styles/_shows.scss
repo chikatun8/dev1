@@ -10,11 +10,15 @@
 }
 
 .show-info {
+  position: relative;
+  bottom: 70px;
   height: 200px;
-  text-align: center;
+  width: 500px;
+  text-align: right;
   background-color: white;
-  border-top: 1px solid blue;
-
+  margin-right: 250px;
+  float: right;
+  border-top: 1px solid #6195FF;
 }
 
 .show-info p {
@@ -24,6 +28,7 @@
   font-size: 18px;
   color: black;
   float: right;
+  margin-bottom: 5px;
 }
 
 .album-odd {

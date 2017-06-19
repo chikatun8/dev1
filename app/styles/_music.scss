@@ -9,28 +9,30 @@
   min-height: 400px;
 }
 
-.album-title {
+.album {
   height: auto;
-  width: 300px;
+  width: 350px;
 }
 
-.album-pic {
-  height: 300px;
-  width: auto;
-  background-color: blue;
-}
-
-.album-title p {
+.album-title {
   font-size: 18pt;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   color: black;
   text-align: right;
   padding-top: 8px;
-  margin-right: 50px;
+  margin-right: 25px;
 }
 
-.spacer {
-  height: 300px;
+.album-year {
+  position: relative;
+  bottom: 10px;
+  font-size: 12pt;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  color: black;
+  text-align: right;
+  margin-right: 25px;
 }
 
 .row-centered {
@@ -43,4 +45,13 @@
     text-align:left;
     /* inline-block space fix */
     margin-right:-4px;
+}
+
+#bossa-nova-img {
+  height: 90%;
+  width: 90%;
+}
+
+#bottom-row {
+  margin-top: 25px;
 }
