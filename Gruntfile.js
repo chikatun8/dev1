@@ -14,10 +14,10 @@ module.exports = function (grunt) {
   require('time-grunt')(grunt);
 
   // Automatically load required grunt tasks
-  require('jit-grunt')(grunt, {
-    useminPrepare: 'grunt-usemin',
-    buildcontrol: 'grunt-build-control'
-  });
+//  require('jit-grunt')(grunt, {
+  //  useminPrepare: 'grunt-usemin',
+    //buildcontrol: 'grunt-build-control'
+  //});
 
   // Configurable paths
   var config = {
